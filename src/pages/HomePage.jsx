@@ -1,4 +1,5 @@
 import SearchBar from "../components/HomePage/Searchbar/SearchBar";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -17,13 +18,19 @@ const HomePage = () => {
             Dive into a treasure trove of information about your favorite heroes
             and villains from the iconic universes of DC Comics and Marvel
             Entertainment. Discover their origins, powers, allies, enemies, and
-            epic battles as you immerse yourself in the rich world of superhero
-            lore.
+            epic battles as you immerse yourself in the rich world of superhero.
           </p>
         </div>
         <div className="w-full mt-8">
           <SearchBar />
         </div>
+        <Link
+          to="characterPage"
+          className="inline-block px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 focus:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300"
+        >
+          {" "}
+          Character Page{" "}
+        </Link>
       </div>
     </div>
   );

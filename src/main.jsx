@@ -6,12 +6,17 @@ import ErrorPage from "./pages/ErrorPage";
 import HomePage from "./pages/HomePage";
 
 import "./index.css";
+import CharacterPage from "./pages/CharacterPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <HomePage />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: "characterPage",
+    element: <CharacterPage />,
   },
 ]);
 
