@@ -15,8 +15,8 @@ const CharacterPage = () => {
             <Logo />
           </div>
           <div className="flex-grow m-7">
-            <div className="flex flex-col items-start w-2/4">
-              <h1 className="mb-5 text-white text-7xl">WONDER WOMAN</h1>
+            <div className="flex flex-col items-start w-1/4">
+              <h1 className="mb-5 text-white text-8xl ">WONDER WOMAN</h1>
               <p className="w-[485px] text-justify text-base text-white">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis
                 quod cum, odit commodi maxime nostrum? Minima vero odio
@@ -32,7 +32,7 @@ const CharacterPage = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col justify-center mb-20 ml-7 h-60 bg-slate-200">
+          <div className="flex flex-col justify-center mb-20 ml-7 h-60">
             <Card />
           </div>
         </div>
