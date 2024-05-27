@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import SearchBar from "../components/HomePage/Searchbar/SearchBar";
+import SearchBar from "../components/HomePage/SearchBar";
 import { homePageData } from "../data/contante/homePageData";
 
 const HomePage = () => {

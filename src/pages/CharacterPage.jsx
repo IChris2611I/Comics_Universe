@@ -16,7 +16,7 @@ const CharacterPage = () => {
           </div>
           <div className="flex-grow m-7">
             <div className="flex flex-col items-start w-1/4">
-              <h1 className="mb-5 text-white text-8xl ">WONDER WOMAN</h1>
+              <h1 className="mb-5 text-white text-8xl ">SPIDERMAN</h1>
               <p className="w-[485px] text-justify text-base text-white">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis
                 quod cum, odit commodi maxime nostrum? Minima vero odio
