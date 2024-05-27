@@ -32,7 +32,7 @@ const CharacterPage = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col justify-center mb-20 ml-7 h-60 bg-slate-200">
+          <div className="flex flex-col justify-center mb-20 ml-7 h-60 ">
             <Card />
           </div>
         </div>
