@@ -3,7 +3,7 @@ import gothamBackground from "../../assets/gotham.png";
 
 const Card = () => {
   return (
-    <div className="relative overflow-hidden transition-transform rounded-md w-36 h-5/6 transform-gpu hover:scale-105">
+    <div className="relative overflow-hidden transition-transform rounded-md w-36 h-6/6 transform-gpu hover:scale-105">
       <div
         className="absolute inset-0 object-cover bg-cover rounded-md"
         style={{ backgroundImage: `url(${gothamBackground})`, opacity: 0.6 }}

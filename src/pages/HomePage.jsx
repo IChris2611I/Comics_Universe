@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
-import SearchBar from "../components/HomePage/Searchbar/SearchBar";
-import { homePageData } from "../data/contante/homePageData";
+import { SearchBar } from "../components/index";
+import { HomePageData } from "../data/index";
+import { Background } from "../assets/index";
 
 const HomePage = () => {
-  const { title, description } = homePageData[0];
+  const { title, description } = HomePageData[0];
 
   return (
     <div
       className="relative h-screen bg-fixed bg-center bg-no-repeat bg-cover"
-      style={{ backgroundImage: "url('/src/assets/background.png')" }}
+      style={{ backgroundImage: `url(${Background})` }}
     >
       <div className="absolute inset-0 z-10 bg-black opacity-90"></div>
       <div className="relative z-20 flex flex-col items-center justify-start h-full max-w-screen-xl gap-10 p-8 mx-auto text-white">

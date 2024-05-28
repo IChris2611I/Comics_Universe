@@ -1,4 +1,4 @@
-export const homePageData = [
+export const HomePageData = [
   {
     title:
       "Welcome to the ultimate destination for all DC and Marvel characters!",
